@@ -1,294 +1,325 @@
-<div align="center">
+# SkillSphere - Online Course Registration Platform
 
-# 🎓 Online Course Registration System
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Simplify+Course+Enrollment+Online;Student+%26+Admin+Portal;Built+with+HTML+%7C+CSS+%7C+JS+%7C+Node.js" alt="Typing SVG" />
-
-<br/>
-
-![Project Banner](https://img.shields.io/badge/-%F0%9F%8E%93%20Online%20Course%20Registration-7c3aed?style=for-the-badge&labelColor=1a0533)
-
-<br/>
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-
-<br/>
-
-[![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/online-course-registration-system?style=flat-square&color=7c3aed)](https://github.com/yourusername/online-course-registration-system)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/online-course-registration-system?style=flat-square&color=7c3aed)](https://github.com/yourusername/online-course-registration-system/commits)
-[![License](https://img.shields.io/badge/License-Educational-green?style=flat-square)](LICENSE)
-
-<br/>
-
-> *A web-based system that eliminates manual paperwork, reduces enrollment errors, and centralizes course management — for students and administrators.*
-
-<br/>
-
-[🚀 Live Demo](#) · [📖 Documentation](#) · [🐛 Report Bug](https://github.com/yourusername/online-course-registration-system/issues) · [💡 Request Feature](https://github.com/yourusername/online-course-registration-system/issues)
-
-</div>
+SkillSphere is a modern and responsive online course registration platform designed to help learners discover, explore, and enroll in professional courses. The platform provides an intuitive user experience with dedicated sections for course discovery, platform information, student testimonials, and customer support.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Features
 
-<div align="center">
+### 🏠 Home Page
+- Responsive hero section with call-to-action
+- Featured course categories
+- Popular courses showcase
+- Student testimonials section
+- Modern UI with gradient design
 
-| Student Dashboard | Course Listing |
-|:-----------------:|:--------------:|
-| ![Student Dashboard](./screenshots/student-dashboard.png) | ![Course Listing](./screenshots/course-listing.png) |
+### 📖 About Page
+- Platform overview
+- Mission and vision statements
+- Educational goals and objectives
+- Student success highlights
+- Why choose us section
 
-| Admin Panel | Registration Form |
-|:-----------:|:-----------------:|
-| ![Admin Panel](./screenshots/admin-panel.png) | ![Registration](./screenshots/registration.png) |
+### 📚 Courses Page
+- Course catalog display
+- AI-powered course search interface
+- Course pricing information
+- Duration and enrollment details
+- Multiple learning categories
 
-</div>
-
-> 📁 Add screenshots to a `/screenshots` folder in your repository to display them here.
-
----
-
-## 📌 Problem Statement
-
-Manual course registration is **slow, error-prone, and fragmented.**
-
-- 🔴 Students struggle to track available courses and enrollment status
-- 🔴 Administrators spend hours managing spreadsheets and paperwork
-- 🔴 No centralized system leads to data inconsistency and confusion
-
-**This system solves all of that.**
-
----
-
-## 🎯 Objectives
-
-| # | Goal |
-|---|------|
-| 1 | Allow students to register for courses online — anytime, anywhere |
-| 2 | Enable administrators to manage courses and users from a single dashboard |
-| 3 | Eliminate paperwork and manual enrollment effort |
-| 4 | Improve data accuracy and system accessibility |
-
----
-
-## ✨ Features
-
-### 👨‍🎓 Student Module
-
-| Feature | Description |
-|---------|-------------|
-| 🔐 Authentication | Secure user registration and login |
-| 📚 Browse Courses | View all available courses with details |
-| ➕ Enroll | Register for desired courses instantly |
-| ➖ Unenroll | Drop courses with a single click |
-| 📋 My Courses | View all currently enrolled courses |
-
-### 🛠️ Admin Module
-
-| Feature | Description |
-|---------|-------------|
-| 🔑 Admin Login | Secure admin authentication |
-| ➕ Add Course | Create and publish new courses |
-| ✏️ Update Course | Edit course details anytime |
-| 🗑️ Delete Course | Remove outdated or cancelled courses |
-| 👥 View Students | See all registered students |
-| 📊 Manage Enrollments | Monitor and control all course enrollments |
-
-### 🌐 General Features
-
-- ✅ Simple and intuitive UI
-- ✅ Secure authentication system
-- ✅ Fully responsive design (mobile + desktop)
-- ✅ Scalable architecture
+### 📞 Contact Page
+- Contact information cards
+- Inquiry/contact form
+- Email and phone support details
+- Social media integration
+- Footer with platform information
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Frontend** | HTML5, CSS3, JavaScript | UI & interactivity |
-| **Backend** | Node.js | Server-side logic & REST API |
-| **Database** | MySQL / MongoDB | Data storage |
-| **Version Control** | Git & GitHub | Source management |
-| **IDE** | VS Code | Development environment |
+### Libraries & Tools
+- React Router DOM
+- React Icons
+- Axios (Optional)
+- Vite / Create React App
 
-</div>
+### Design
+- Responsive Design
+- CSS Flexbox
+- CSS Grid
+- Modern Gradient UI
+- Mobile-Friendly Layout
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
-online-course-registration/
+```text
+SkillSphere/
 │
-├── 📂 frontend/
-│   ├── index.html          # Landing / Home page
-│   ├── login.html          # Login page
-│   ├── register.html       # Student registration page
-│   ├── style.css           # Global stylesheet
-│   └── script.js           # Client-side JavaScript
+├── public/
 │
-├── 📂 backend/
-│   ├── server.js           # Express server entry point
-│   └── routes/             # API route handlers
-│       ├── auth.js         # Authentication routes
-│       ├── courses.js      # Course management routes
-│       └── students.js     # Student management routes
+├── src/
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── CourseCard.jsx
+│   │   ├── TestimonialCard.jsx
+│   │   └── ContactForm.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Courses.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── styles/
+│   │   ├── Home.css
+│   │   ├── About.css
+│   │   ├── Courses.css
+│   │   └── Contact.css
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 │
-├── 📂 database/
-│   └── schema.sql          # Database schema & tables
-│
+├── package.json
+├── package-lock.json
 └── README.md
 ```
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ Installation
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                   STUDENT FLOW                          │
-│                                                         │
-│  Register ──► Login ──► Browse Courses ──► Enroll       │
-│                              │                          │
-│                    View My Enrollments                  │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│                    ADMIN FLOW                           │
-│                                                         │
-│  Login ──► Dashboard ──► Add / Edit / Delete Courses    │
-│                │                                        │
-│         View Students & Manage Enrollments              │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) v18+
-- [MySQL](https://www.mysql.com/) or [MongoDB](https://www.mongodb.com/)
-- [Git](https://git-scm.com/)
-
-### Installation
-
-**Step 1 — Clone the repository**
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/online-course-registration-system.git
-cd online-course-registration-system
+git clone https://github.com/your-username/skillsphere.git
 ```
 
-**Step 2 — Set up the database**
+### 2. Navigate to Project Directory
 
 ```bash
-# For MySQL: import the schema
-mysql -u root -p < database/schema.sql
+cd skillsphere
 ```
 
-**Step 3 — Configure environment variables**
-
-Create a `.env` file inside the `/backend` folder:
-
-```env
-PORT=3000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=course_registration
-```
-
-**Step 4 — Install dependencies and start the server**
+### 3. Install Dependencies
 
 ```bash
-cd backend
 npm install
+```
+
+### 4. Run Development Server
+
+For React:
+
+```bash
 npm start
 ```
 
-**Step 5 — Open the app**
+For Vite:
 
-```
-Open frontend/index.html in your browser
-         — or —
-Visit http://localhost:3000
+```bash
+npm run dev
 ```
 
-> ⚠️ Never commit your `.env` file. Add it to `.gitignore`.
+### 5. Open Browser
+
+```text
+http://localhost:3000
+```
+
+or
+
+```text
+http://localhost:5173
+```
 
 ---
 
-## 📊 Outcomes
+## 📸 Screenshots
 
-<div align="center">
+### Home Page
+- Hero Section
+- Popular Courses
+- Student Testimonials
 
-| Before | After |
-|:------:|:-----:|
-| 📝 Manual, paper-based registration | ⚡ Instant online enrollment |
-| 🐌 Slow admin processes | 🚀 Automated course management |
-| 📂 Scattered, inconsistent data | 🗃️ Centralized database |
-| ❌ Error-prone manual entries | ✅ Accurate, real-time system |
-| 😤 Poor student experience | 😊 Smooth, self-service portal |
+### About Page
+- Platform Introduction
+- Mission & Vision
 
-</div>
+### Courses Page
+- AI Smart Search
+- Course Catalog
+- Pricing and Enrollment Information
 
----
-
-## 🔮 Future Enhancements
-
-- [ ] 📧 Email notifications for registration confirmation
-- [ ] 💳 Payment integration for paid courses
-- [ ] 🏅 Downloadable course completion certificates
-- [ ] 🔒 Role-based access control (RBAC)
-- [ ] 📊 Admin analytics dashboard
-- [ ] 📱 Mobile app version
+### Contact Page
+- Contact Form
+- Support Information
+- Social Media Links
 
 ---
 
-## 👤 Author
+## 🎯 Core Functionalities
 
-<div align="center">
+### Course Discovery
+Users can browse available courses and explore details including:
 
-<img src="https://avatars.githubusercontent.com/yourusername" width="80" style="border-radius:50%" alt="Author Avatar"/>
+- Course title
+- Description
+- Duration
+- Enrollment count
+- Pricing
+
+### AI Smart Search
+Users can describe their learning goals and receive course suggestions based on their interests.
+
+Example:
+
+```text
+I want to become a Full Stack Developer
+```
+
+```text
+Help me learn Data Science and AI
+```
+
+```text
+I want to rank my business on Google
+```
+
+### Student Testimonials
+Displays feedback and experiences shared by learners.
+
+### Contact Support
+Allows users to send inquiries directly through the contact form.
+
+---
+
+## 🌟 Future Enhancements
+
+### Authentication System
+- User Registration
+- User Login
+- Password Reset
+
+### Student Dashboard
+- Enrolled Courses
+- Learning Progress
+- Certificates
+
+### Admin Dashboard
+- Course Management
+- User Management
+- Analytics
+
+### Payment Integration
+- Razorpay
+- Stripe
+- PayPal
+
+### AI Enhancements
+- Personalized Recommendations
+- Learning Path Generation
+- Chatbot Assistance
+
+### Backend Integration
+- Node.js
+- Express.js
+- MongoDB
+- REST APIs
+
+---
+
+## 📈 Learning Outcomes
+
+This project demonstrates:
+
+- React Component-Based Architecture
+- Responsive Web Design
+- React Routing
+- State Management
+- Form Handling
+- UI/UX Design Principles
+- Frontend Project Organization
+- Reusable Components
+
+---
+
+## 🔒 Security Improvements (Future)
+
+- JWT Authentication
+- Input Validation
+- Form Sanitization
+- Secure API Communication
+- Rate Limiting
+
+---
+
+## 👨‍💻 Author
 
 ### Madhusudhanan S
 
-**B.E. Computer Science and Business Systems**  
-Saranathan College of Engineering
+Computer Science and Business Systems Graduate
 
-<br/>
+**Skills**
+- Java
+- React.js
+- Rust
+- SQL
+- HTML
+- CSS
+- JavaScript
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+**Projects**
+- SkillSphere – Online Course Registration Platform
+- Online Course Reservation System
+- ZIP Compression & Decompression Tool (Rust)
 
-</div>
+GitHub: https://github.com/your-github-username
+
+LinkedIn: https://linkedin.com/in/your-linkedin-profile
 
 ---
 
-## 📄 License
+## 🤝 Contributing
 
-This project is developed for **educational purposes** and is free to use and modify.
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
 
 ---
 
-<div align="center">
-
-**⭐ If this project helped you, give it a star — it means a lot!**
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.online-course-registration-system)
-
-</div>
+```
